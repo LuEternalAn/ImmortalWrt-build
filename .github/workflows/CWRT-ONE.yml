@@ -53,15 +53,15 @@ jobs:
     uses: ./.github/workflows/WRT-CORE.yml
     with:
       #编译平台
-      WRT_TARGET: MTK-7981
+      WRT_TARGET: MTK-7986
       #默认主题
-      WRT_THEME: argon
+      WRT_THEME: bootstrap
       #默认主机名
-      WRT_NAME: CWRT
+      WRT_NAME: ImmortalWrt
       #默认WIFI名
-      WRT_WIFI: CWRT
+      WRT_WIFI: XDR6088
       #默认地址
-      WRT_IP: 192.168.10.1
+      WRT_IP: 192.168.6.1
       #默认密码，仅作提示，修改无用
       WRT_PW: 无
       #源码链接
