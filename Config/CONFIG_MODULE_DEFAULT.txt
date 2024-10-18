@@ -1,0 +1,14 @@
+# USB相关
+CONFIG_MODULE_DEFAULT_luci-app-usb-printer=n
+CONFIG_MODULE_DEFAULT_luci-i18n-usb-printer-zh-cn=n
+CONFIG_MODULE_DEFAULT_kmod-usb2=n
+CONFIG_MODULE_DEFAULT_kmod-usb3=n
+CONFIG_MODULE_DEFAULT_kmod-usb-net-rndis=n
+CONFIG_MODULE_DEFAULT_usbutils=n
+CONFIG_USB_SUPPORT=n
+
+# 磁盘挂载及格式相关
+CONFIG_MODULE_DEFAULT_automount=n
+CONFIG_MODULE_DEFAULT_fdisk=n
+CONFIG_MODULE_DEFAULT_kmod-nls-cp437=n
+CONFIG_MODULE_DEFAULT_kmod-nls-iso8859-1=n
